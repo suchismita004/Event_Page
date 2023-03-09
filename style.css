@@ -1,0 +1,110 @@
+.navbar {
+    border-radius: 16px;
+    width: 100%;
+    background-color:  rgb(227, 153, 236);
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ed53e0;
+    color:black;
+  }
+  
+  .active {
+    background-color:rgb(57, 10, 57);
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+    body{
+              background-color: antiquewhite;
+              background-image: url("https://wallpapercave.com/wp/wp4783192.jpg");
+              background-image:cover;
+              font-size: 200%;
+          }
+          th{
+              background-color: rgb(57, 10, 57);
+              color: white;
+              border: 2px solid black ;
+          }
+          td{
+              background-color: rgb(227, 153, 236);
+              color: rgb(110, 5, 110);
+              border: 2px solid black ;
+              text-align: center;
+          }
+          h2{
+              background-color: rgb(227, 153, 236);
+              color: rgb(110, 5, 110);
+              text-align: center;
+              border-radius: 16px;
+              text-decoration:underline;
+              text-shadow: 2px 2px 6px rgb(165, 46, 176);
+          }
+          table{
+              
+              border: 1px solid purple;
+              
+          }
+          .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  
+  #mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  #singers {
+    bottom: 20px;
+    background-color: rgb(57, 10, 57);
+  }
